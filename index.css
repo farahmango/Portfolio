@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+body{
+    background-color: white;
+     }
+
+
+.logo{
+    border-radius: 50%;
+}
+
+.nav{
+color: black;
+font-weight: bolder;
+}
+
+.nav-link{
+
+color: black;
+}
+ /* ................nav...................  */
+/* ................home............  */
+
+.home{
+    background-image: url("images/blue.jpg");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    
+.home-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}   
+.container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.about-me{
+    margin-bottom:20px;
+}
+
+h5{
+    text-align: center;
+}
+
+.skills-icon{
+ color: rgb(243, 187, 83);
+
+}
+.margn-skills-icon{
+    margin-left: 20px;
+
+}
+
+.calc-icon{
+    margin-left: 200px;margin-top: 20px;
+}
+.portfolio-icon{
+    margin-left: 200px;margin-top: 20px;
+
+}
+/* ....... column skills  */
+.col{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+  .card-title{
+font-weight: bolder;
+    padding:20px;
+    font-size: 20px;
+
+  }
+ 
+/* horizantal line  */
+hr{
+    color:black;
+}
+
+/* link decoration  */
+a{
+    text-decoration: none;
+}
+/* Services card  */
+.card-body{
+    height: 400px;
+    background-color: rgb(212, 244, 245);
+}
+
+#mockup{
+    background-color: rgb(202, 202, 202);
+}
+
+  
+/* footer   */
+
+.footer{
+    position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  }
+  
+
+
+/* ........... العناوين  */
+
+h1{
+color: black;
+    font-size: 50px;
+    margin-top: -200px;}
+
+.about{
+
+    color: black;
+    font-size: 50px;
+    margin-top: -200px;
+}
+.header1{
+
+margin-bottom: 100px;
+margin-top: 80px;
+font-size: 50px;
+font-size: 5vw;
+
+}
+
+.header2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-size: 5vw;
+
+
+}
+
+.header3{
+    margin-bottom: 100px;
+    margin-top: -20px;
+    font-size: 50px;
+    font-size: 5vw;
+
+
+}
+
+.header4{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-size: 5vw;
+
+
+}
+.header5{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-size: 5vw;
+
+}
