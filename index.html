@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--Link for css-->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style.css/index.css">
     <!--Link for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -25,10 +25,7 @@
                     width="50" height="50" class="d-inline-block align-text-center logo">
                 Farah Mango
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -59,98 +56,109 @@
     <div class="home ">
         <div class="container-home">
             <img class="home-img" src="./images/farah.jpeg" alt="">
-            <h2> Farah Mango</h2>
-            <h2> Student,Developer</h2>
+            <h2 style="font-size: 50px;"> Farah Mango</h2>
+            <h3> Student,Developer</h3>
+            <h3 style="text-align: center;">I'm currently a student, and I aspire to be a good developer in the future in one of the big companies,<br>
+                 I like to develop myself every day and learn new things. 
+            </h3>
         </div>
     </div>
     </div>
     </div>
     <!-- ...............end home............... -->
     <!-- ...............section one .............. -->
-    <div class="container" style="background-color: white; margin-top: 300px;">
-    <div class="row">
-    <div class="col-10">
-   <h1 class="about" id="about">About Me</h1>
-   <div class="container">
-  <div class="row" >
-  <div class="col order-4 ">
-                            <i class="fa fa-user" style="font-size: 150px; color: rgb(148, 226, 240);"
-                                aria-hidden="true"> </i>
-                            <p style="font-size: 20px;"> My Name is Farah Mango <br>
-                                I am 22 years old.
-                            </p>
- </div>
-  <div class="col order-4">
-   <i class="fa fa-graduation-cap" style="font-size: 150px; color: rgb(148, 226, 240);"
-    aria-hidden="true"> </i>
-   <p style="font-size: 20px;"> Graduated As a Software<br> Engineer.
-   </p>
-   </div>
-   <div class="col order-4">
-   <i class="fa fa-briefcase" style="font-size: 150px; color: rgb(148, 226, 240);"
-   aria-hidden="true"> </i>
-   <p style="font-size: 20px;"> Internship at Orange Academy.<br>
-   </p>
-   </div>
-   </div>
-   </div>
-   </div>
-   <hr>
-   <div class="col-2">
-   <div class="p">
-   </div>
-   </div>
-   </div>
+   
+       <h1 class="about" id="about">About Me</h1>
+    
+       <div class="container">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card ">
+                    <div class="card-body style" style="background-color: white;">
+                        <h5 class="card-title" ><i class="fa fa-user" style="font-size:150px; color: rgb(148, 226, 240); "
+                            aria-hidden="true"> </i></h5>
+                        <p class="card-text "style="text-align:center" ><b>My Name is Farah Mango <br>
+                            I am 22 years old.</b> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card ">
+                    <div class="card-body style" style="background-color: white;">
+                        <h5 class="card-title" > <i class="fa fa-graduation-cap" style="font-size: 150px; color: rgb(148, 226, 240);"
+                        aria-hidden="true"> </i></h5>
+                        <p class="card-text"style="text-align:center" ><b>Graduated As a Software<br> Engineer.</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card ">
+                    <div class="card-body style" style="background-color: white;">
+                        <h5 class="card-title" ><i class="fa fa-briefcase" style="font-size: 150px; color: rgb(148, 226, 240);"
+                            aria-hidden="true"> </i></h5>
+                        <p class="card-text" style="text-align:center"><b>Internship at Orange Academy.</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+      </div>
+      
 
         <!-- ............... end section one ............  -->
 
         <!-- .............section two.......... -->
         <h1 class="header1" id="services"> Services</h1>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;">UX,UI</h5>
-                            <p class="card-text"> <b>UX:</b>procedure of improving the overall experience of the users
-                                when they interact with
-                                the application or website in order to
-                                achieve its objective to provide the maximum customer satisfaction.<br>
-                                <b>UI:</b>process of improving the presentation and the interactivity of the web or
-                                mobile application.</p>
-                        </div>
-                    </div>
+        <div class="row row-cols-1 row-cols-md-3 g-0">
+            <div class="col">
+              <div class="card">
+                <img src="./images/mockup.png" class="img-thumbnail card-img-top" alt="...">
+           
+                <div class="card-body">
+                  <h5 class="card-title">Mockup and Wireframe</h5>
+                  <p class="card-text"><b>WireFrame:</b>sketch of a design that incorporates the different
+                    ideas that have been discussed.
+                    It puts together basic elements and positioning of content.<br>
+                    <b>Mockup:</b>representations of the wireframe. They have more detail added to them with
+                    shapes, color, and graphics all being part of the mockup.</p>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mockup and Wireframe</h5>
-                            <p class="card-text"><b>WireFrame:</b>sketch of a design that incorporates the different
-                                ideas that have been discussed.
-                                It puts together basic elements and positioning of content.<br>
-                                <b>Mockup:</b>representations of the wireframe. They have more detail added to them with
-                                shapes, color, and graphics all being part of the mockup.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Html,Css,Bootstrap</h5>
-                            <p class="card-text"><b>Html:</b>Html is what gives structure and a form to webpage.<br>
-                                <b>Bootstrap:</b>Bootstrap is HTML, CSS and JavaScript open-source framework,
-                                Using bootstrap you can create responsive, mobile first web sites or web
-                                applications.<br>
-                                <b>Css:</b>is like skin,texture. It gives color, width,height,padding,margin,background
-                                to html element.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col">
+              <div class="card">
+                <img src="./images/UX UI.png" class="img-thumbnail card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">UX,UI</h5>
+                  <p class="card-text"><b>UX:</b>procedure of improving the overall experience of the users
+                    when they interact with
+                    the application or website in order to
+                    achieve its objective to provide the maximum customer satisfaction.<br>
+                    <b>UI:</b>process of improving the presentation and the interactivity of the web or
+                    mobile application.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./images/bootstrap.PNG" class="img-thumbnail card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Html,Css,Bootstrap</h5>
+                  <p class="card-text"><b>Html:</b>Html is what gives structure and a form to webpage.<br>
+                    <b>Bootstrap:</b>Bootstrap is HTML, CSS and JavaScript open-source framework,
+                    Using bootstrap you can create responsive, mobile first web sites or web
+                    applications.<br>
+                    <b>Css:</b>is like skin,texture. It gives color, width,height,padding,margin,background
+                    to html element.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
             <hr>
+
 
             <!-- ............end section two..............  -->
 
@@ -158,42 +166,80 @@
 
 
             <h1 class="header2" id="skills"> Skills</h1>
-            <div class="container">
-                <div class="row row-cols-2">
-                    <div class="col ">Active Learning <i class="fa fa-star skills-icon margn-skills-icon"
-                            aria-hidden="true"></i>
+            <div class="container" style="background-color:rgb(248, 248, 248);font-weight: bold;" >
+                <div class="row row-cols-2" style="text-align: center; ">
+                    <div class="col col-skills " >Active Learning <br>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                     </div>
-                    <div class="col">Design Thinking
-                        <i class="fa fa-star skills-icon margn-skills-icon" aria-hidden="true"></i>
+                    <div class="col">Design Thinking <br>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                     </div>
-                    <div class="col">Presentation Skills
-                        <i class="fa fa-star skills-icon margn-skills-icon" aria-hidden="true"></i>
+                    <div class="col">Presentation Skills <br>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                     </div>
-                    <div class="col">Time Management
-                        <i class="fa fa-star skills-icon margn-skills-icon" aria-hidden="true"></i>
+                    <div class="col">Time Management <br>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                     </div>
-                    <div class="col">Communication Skills
-                        <i class="fa fa-star skills-icon margn-skills-icon" aria-hidden="true"></i>
+                    <div class="col">Communication Skills <br>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                         <i class="fa fa-star skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i>
-                        <i class="fa fa-star-o skills-icon" aria-hidden="true"></i></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+
+                    </div>
+
+                    <div class="col">UX,UI <br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="col">Html ,CSS <br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="col">Bootstrap <br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="col">Mockup <br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="col">Wireframe <br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
 
                     </div>
                  </div>
@@ -205,36 +251,19 @@
             <!-- ......................... section four ...............  -->
 
             <h1 class="header3" id="projects"> Projects</h1>
+ 
+            <div class="card" style="width: 90%; text-align: center;">
+                <img src="./images/Capture.PNG" class="card-img-top style-img" alt="...">
+                <div class="card-body bg-light "  >
+                  <p class="card-text" style="font-size: 20px;text-align: center;">
+                      <strong>My Portfolio Project</strong><br>
+                   This is my first Project Using Html ,Css,Bootstrap .
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text">Creating my Portfolio using html,css,bootstrap.
-                                <i class="fa fa-address-card-o portfolio-icon " style=" font-size: 100px;"
-                                    aria-hidden="true"></i>
-
-                            </p>
-
-                        </div>
-                    </div>
+                  </p>
+                  <a href="https://github.com/farahmango/Portfolio"target="_blank" class="btn btn-outline-dark"> <i class="fa fa-github"
+                    style="font-size:32px"></i></a>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Calculator</h5>
-                            <p class="card-text">Creating Calculator using html,css.
-                                <br>
-
-                                <i class="fa fa-calculator calc-icon " style=" font-size: 100px;"
-                                    aria-hidden="true"></i>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+              </div>
 
             <hr>
 
@@ -247,29 +276,35 @@
             <h1 class="header4" id="testimonials"> Testimonials</h1>
 
 
-            <div class="card-test">
-                <div class="card-body">
+            <div class="card-test" style="width: 80%;margin: auto;">
+                <div class="card-body" >
                     <h5 class="card-title">What do my friends think about me?</h5>
                     <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">
                         Jana Said ..</h6>
-                    <p class="card-text" style="text-align: center;">
+                    <p class="card-text" style="text-align: center; ">
                         <i style="font-size: 50px;" class="fa fa-quote-left" aria-hidden="true"></i>
                         She is very Unique and a hard worker <br>
-                        Work as a team ,
-                        love to help people
-                        <i style="font-size: 50px;" class="fa fa-quote-right" aria-hidden="true"></i>
+                        Work as a team , love to help people
+                        <i style="font-size: 50px;" class="fa fa-quote-right" aria-hidden="true" ></i>
+                        <br><br>
+                        <i class="fa fa-user-circle-o" aria-hidden="true" style="font-size: 50px;"></i><br>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
+                        <i class="fa fa-star skills-icon" aria-hidden="true"></i>
                      </p>
                       </div>
                       </div>
                       <hr>
-
                       <!-- ............ end section five.......  -->
+
                       <!-- .................. section six ............  -->
                       <h1 class="header5" id="contact"> Contact</h1>
-                      <div class="row">
-                      <div class="col-6" style="margin-bottom: 200px;">
-
-                    <i class="fa fa-envelope" aria-hidden="true" style="font-size: 20px;">: farahmangoo@gmail.com </i>
+                      <div class="container" style="background-color:white; margin-bottom:300px;" >
+                        <div class="row row-cols-8" style="text-align:left; ">
+                            <div class="col-8" > 
+                                  <i class="fa fa-envelope" aria-hidden="true" style="font-size: 20px;">: farahmangoo@gmail.com </i>
                     <br><br>
 
                     <i class="fa fa-phone" aria-hidden="true" style="font-size: 20px;">: 0787339633</i><br><br>
@@ -278,34 +313,77 @@
                     <i class="fa fa-linkedin" aria-hidden="true" style="font-size: 20px;">: Farah Mango</i><br><br>
                     <i class="fa fa-github" aria-hidden="true" style="font-size: 20px;">: farahmango</i><br>
 
-                </div>
-                </div>
-                </div>
+                            </div>
+                            <div class="col-4">
+                                <form class="row g-3">
+                                    <div class="col-md-4">
+                                      <label for="validationDefault01" class="form-label">First name</label>
+                                      <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="validationDefault02" class="form-label">Last name</label>
+                                      <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="validationDefaultUsername" class="form-label">Username</label>
+                                      <div class="input-group">
+                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required placeholder="Username"> 
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="validationDefault03" class="form-label">Email</label>
+                                      <input type="text" class="form-control" id="validationDefault03" required placeholder="Email">
+                                    </div>
+                                    <div class="col-md-3">
+                                      <label for="validationDefault04" class="form-label">City</label>
+                                      <input type="text" class="form-control" id="validationDefault03" required placeholder="City">
+                                    </div>
+                                    <div class="col-md-3">
+                                      <label for="validationDefault05" class="form-label">Zip</label>
+                                      <input type="text" class="form-control" id="validationDefault05" required placeholder="ZipCode">
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                        <label class="form-check-label" for="invalidCheck2">
+                                          Agree to terms and conditions
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <button class="btn btn-info" type="submit">Submit form</button>
+                                    </div>
+                                  </form>
+                            </div>
+</div>
+</div>
+
+
+
 
                 <!-- ........... end section six...........  -->
 
-        <div class="footer bg-light"  >
-
-        
-            <span><a
-                style="color: black;" href="https://www.facebook.com/index.php"  target="_blank"> <i style="font-size:28px"
-                 class="fa">&#xf082;</i></a></span> 
+          <div class="footer bg-light"  >
+            <span>
+                <a
+                style="color: black;" href="https://www.facebook.com/farah.amango/" target="_blank"> <i style="font-size:28px"
+                 class="fa">&#xf082;</i>
+                </a></span> 
              <span><a
-                style="color: black;" href="https://github.com/" target="_blank"> <i class="fa fa-github"
+                style="color: black;" href="https://github.com/farahmango" target="_blank"> <i class="fa fa-github"
                     style="font-size:32px"></i>
-            </a></span>
+                </a></span>
                 <span>
                     <a
-                    style="color: black;" href="https://www.linkedin.com/" target="_blank"> <i style="font-size:30px"
+                    style="color: black;" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank"> <i style="font-size:30px"
                         class="fa">&#xf08c;</i>
-                </a> 
-                </span>  
-           <span>
-            <a
+                </a> </span>  
+              <span>
+              <a
             style="color: black;" href="https://www.gmail.com/" target="_blank"> <i class="fa fa-google"
                 style="font-size:32px"></i>
-            </a> 
-           </span>
+            </a></span>
 
         </div>
 
